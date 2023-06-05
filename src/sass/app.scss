@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&display=swap");
+@import "palette";
+
+.container {
+  display: flex;
+}
+
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  margin: 0;
+  display: flex;
+  place-items: center;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+
+.read-the-docs {
+  color: $green;
+}
